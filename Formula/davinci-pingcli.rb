@@ -1,4 +1,4 @@
-class DvtfPingctl < Formula
+class DavinciPingcli < Formula
     desc "A simple CLI tool to assist HCL generation and debugging with using the DaVinci Terraform provider from Ping Identity."
     homepage "https://github.com/patrickcping/davinci-pingcli"
     license "MIT"
