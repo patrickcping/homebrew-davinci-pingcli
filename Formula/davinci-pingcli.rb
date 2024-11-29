@@ -1,30 +1,30 @@
 class DavinciPingcli < Formula
-    desc "A simple CLI tool to assist HCL generation and debugging with using the DaVinci Terraform provider from Ping Identity."
+    desc "A simple CLI tool to manage PingOne DaVinci environments."
     homepage "https://github.com/patrickcping/davinci-pingcli"
     license "MIT"
-    version "0.0.1"
+    version "0.0.2"
   
     head "https://github.com/patrickcping/davinci-pingcli.git"
   
     on_macos do
       on_arm do
         url "https://github.com/patrickcping/davinci-pingcli/releases/download/v#{version}/davinci-pingcli_darwin_arm64.tar.gz"
-        sha256 "a3f689e18de679fa18d1879adfd6017e153c9d393708e205f4dd45d6e8a6c2a6"
+        sha256 "d1099e2e32ed35a9a58c03f9339f7a5d169ec5e58aeb4949038d0a6dddfc9f03"
       end
       on_intel do
         url "https://github.com/patrickcping/davinci-pingcli/releases/download/v#{version}/davinci-pingcli_darwin_amd64.tar.gz"
-        sha256 "2e1af7c2b259d0eee3613f9ad56e4c204718e8fb62b9094952bf9acfab86a99b"
+        sha256 "bedf0524e0dc47a45b19a1ec94b5fa58e3e00c3f128d1b990b4ebfcb9cf8bbc0"
       end
     end
   
     on_linux do
       on_arm do
         url "https://github.com/patrickcping/davinci-pingcli/releases/download/v#{version}/davinci-pingcli_linux_arm64.tar.gz"
-        sha256 "14d69c1b95d0248b17bbe24779b069a7b5f68c162af76e2cbaa21e33f8979f41"
+        sha256 "7cb76af35d24bb44c63acb2234a727b415dd5f2fbaa228efb4fa7ffb8789d363"
       end
       on_intel do
         url "https://github.com/patrickcping/davinci-pingcli/releases/download/v#{version}/davinci-pingcli_linux_amd64.tar.gz"
-        sha256 "7aafde2113c3ead3074f09d9a7d9e16b28f2fdbfe27bd39891bc420b6b92e7d0"
+        sha256 "c76e3e9ad56a91aa72f9c6f5c1789d765dacd269a7ef1f1150f4b5d87f9a2e4b"
       end
     end
   
